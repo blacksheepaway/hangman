@@ -27,6 +27,38 @@
 </ul>
 <p>Overall, this game demonstrates the power and versatility of the Python programming language, and highlights some of the fundamental techniques used in game development.</p>
 
+<h2>Example Output</h2>
+
+<pre><code>
+Guess a letter: t
+'t' is not in the word.
+  +---+
+  |   |
+  O   |
+ /|   |
+ /    |
+      |
+=========
+f r a n _ _ 
+
+Guessed letters: a e i o u f r n c t
+
+Guess a letter: s
+'s' is not in the word.
+  +---+
+  |   |
+  O   |
+ /|   |
+ / \  |
+      |
+=========
+f r a n _ _ 
+
+Guessed letters: a e i o u f r n c t s
+
+Game over. The word was 'Francis'.
+</code></pre>
+
 <h2>Contributing</h2>
 
 <p>If you want to contribute to this Hangman game, you can fork the repository and create a pull request with your changes. Before submitting your changes, make sure to test the game thoroughly and adhere to the existing code style.</p>
